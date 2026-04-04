@@ -6,8 +6,12 @@ from email.mime.multipart import MIMEMultipart
 # ================================================
 # YOUR DETAILS - CHANGE THESE
 # ===============================================
-sender_email = "sainaveen9440@gmail.com"
-app_password = "ggeg vapz kilt ghvt"
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+sender_email = os.getenv("SENDER_EMAIL")
+app_password = os.getenv("APP PASSWORD")
 
 # =================================================
 # STEP 1 - CREATE GUEST DATA

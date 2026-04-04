@@ -11,7 +11,7 @@ import os
 
 load_dotenv()
 sender_email = os.getenv("SENDER_EMAIL")
-app_password = os.getenv("APP PASSWORD")
+app_password = os.getenv("APP_PASSWORD")
 
 # =================================================
 # STEP 1 - CREATE GUEST DATA
